@@ -6,7 +6,14 @@
 /* --------------------------- Header */
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
     margin: 0;
+    z-index: 1000;
+    
 }
 
 .header-top a {
@@ -22,13 +29,13 @@ header {
 
 
 .logo h1 {
- color: #5c3a9d;
- background-color: #ffc658;
- border-radius: 25px;
- margin-left: 10px;
- margin-top: 10px;
- margin-bottom: 10px;
-font-family: "Noto Serif", sans-serif;
+    color: #5c3a9d;
+    background-color: #ffc658;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Noto Serif", sans-serif;
 }
 
 
@@ -51,7 +58,7 @@ font-family: "Noto Serif", sans-serif;
 
 #menu li {
     font-size: 14px;
-    }
+}
 
 .menu-item {
     height: 116px;
@@ -82,10 +89,31 @@ font-family: "Noto Serif", sans-serif;
     font-weight: 600;
 }
 
+/* --------------------------- Main body */
+
+/* --------------------------- Hero Section */
+
+.jumbotron {
+    text-align: center;
+    z-index: 1000;
+}
+
+.hero-container {
+    height: 100vh;
+    width: 100%;
+
+    background: url('../images/dan-meyers-hluOJZjLVXc-unsplash.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
 /* --------------------------- Colours */
 
 .header-top-colour {
-    background-color:antiquewhite;
+    background-color: antiquewhite;
 }
 
 .menu-home-colour {
@@ -102,7 +130,10 @@ font-family: "Noto Serif", sans-serif;
 
 /* --------------------------- Special paddings/margins/text */
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
