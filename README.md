@@ -1,131 +1,167 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Mental Health Awareness
 
-Welcome Guy Steele-Perkins,
+## Overview
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### Purpose
+The purpose of this project, Mental Health Awareness, is to create an easy to naviagte and appealing website to create a positive user experience which in turn will make it as easy as possible for everyone, espeically beginners, to access imformation on mental health, recognising common issues and manage stress.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+**Guidance:** Begin filling out this section during Phase 1: Ideation & Initial Setup. Clearly articulate the main goal of your project, what it aims to achieve, and how it will provide value to your target audience.
 
-## Gitpod Reminders
+### Target Audience
+The main target for this website will be people who are first looking into mental health, however it will also include useful and imporant links for all kinds of users to access information on mental health. Having an easy to navigate, simple but effective layout and colour pallet to draw users in and make it easier to learn about the subjects present on the website. The easy to navigate and attractive layout will encourage users to stay on the page and therefore encourage users to learn more.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Stories
 
-`python3 -m http.server`
+### Must-Have User Stories
 
-A blue button should appear to click: _Make Public_,
+- **User Story 1:** CLEAR NAVIGATION: As a user, I want the website to have an intuitive and easy-to-use navigation bar, so that I can quickly access mental health topics.
 
-Another blue button should appear to click: _Open Browser_.
+**Acceptance Criteria:** 
+  - When the user is on any page the navigation bar should display links to the main sections of the site (e.g., "Common Issues," "Stress Management," "Resources").
+  - When the user clicks on a link on the naviagtion bar it should take them to relevant section/page with the correct information.
+  - The user should always be able to access the nav bar and therefore the navbar should be "sticky"
+  
+- **User Story 2:** BASIC INFORMATION: As a user, I want access to beginner-friendly descriptions of common mental health issues, so I can understand them without feeling overwhelmed.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+**Acceptance Criteria:** 
+  - When the user clicks on a link in the nav bar it should take them to the page which displays a variety of easy-to-read and short paragraphs with concise and clear format.
+  - When the user navigates through the page/section there must be a "read more" link that can take them to external sources for more informtion
 
-A blue button should appear to click: _Make Public_,
+- **User Story 3:** RESPONSIVE DESIGN: As a user, I want the website to adjust for mobile, tablet, and desktop devices, so that I can read and navigate comfortably on any device.
 
-Another blue button should appear to click: _Open Browser_.
+**Acceptance Criteria:** 
+  - Using a mobile first design the user should be able to navigate the website without having to side scroll or zoom in.
+  - When the user uses larger devices such as a tablet and desktop the website should be responsive and remain aligned and   easy to read
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Should-Have User Stories
 
-To log into the Heroku toolbelt CLI:
+- **User Story 1:** STRESS MANAGMENT TECHNIQUES: As a user, I want tips on how to manage stress that I can apply to my daily life to help manage stress.
+**Acceptance Criteria:** 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - When the user clicks on "Stress Management," when they view the page, then they should see at least three techniques (e.g., mindfulness, breathing exercises, physical activity) with step-by-step instructions.
+  - When the user scrolls in this section there should be visual help e.g. images to help guide them.
+  - "Learn more" link
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+- **User Story 2:** MENTAL HEALTH RESOURCES: As a user, I want quick access to external mental health resources and helplines, so that I can seek professional help if needed.
 
-### Connecting your Mongo database
+**Acceptance Criteria:** 
+  - when the user is on any mental health page then they should see a "Get Help" section with links to helplines and support websites either at the top or the bottom. (warning bar)
+  - When the user clicks on "Get Help" it should open a new tab.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
 
-------
+### Could-Have User Stories
 
-## Release History
+- **User Story 1:** SEARCH BAR: As a user, I would like a search bar to make naviation through the site even easier and the information more accessable.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**Acceptance Criteria:**
+  - When the user enters a key word and presses enter it should list the relevant sections/pages so they can shortcut to the desired area of the site.
+  - When a keyword is not found on the site the search bar should return "No results found"
 
-**June 18, 2024,** Add Mongo back into template
+- **User Story 2:** PERSONAL STORIES: As a user, I would like a section/page dedicated to personal stories that would help me feel reassured and less isolated in my own experienes.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+**Acceptance Criteria:** 
+  - When the user clicks on this link there should be a few personal stories for them to read.
+  - At the bottom there should be an area (E.g. form) so the user can upload their own personal story.
 
-**May 28 2024:** Fix Mongo and Links installs
+## Design Decisions
 
-**April 26 2024:** Update node version to 16
+### Wireframes
+Include wireframes for key sections of your website.  
+Briefly describe the design choices, including layout, colour schemes, and fonts.  
+**Guidance:** Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
 
-**September 20 2023:** Update Python version to 3.9.17.
+Using mind.org.uk for ideas on colour and layout I used dev tools to obtain one of the colours which I added to a colour pallet created by coolors.com : #fecb4e. A quick google search gave me an idea of what colours are associated with good mental health and positivity. With this guide I asked ChatGPT to adjust my colour pallet so the colours would work better with each other. This resulted in these colours: Persian orange, Tomato, Rebecca purple, Xanthous, Bleu de France. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+[Coloor Pallet Screenshot](assets/screenshots/coolors-screenshot.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Accessibility Considerations
+Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
+**Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## AI Tools Usage
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### DALL-E
+Describe how DALL-E was used for image generation, including examples of successes and challenges.  
+**Guidance:** Specifically mention how you used DALL-E for image generation and the impact this had on your design process.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Features Implementation
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Core Features (Must-Haves)
+- **Feature 1:** Description of the implemented feature.
+- **Feature 2:** Description of the implemented feature.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+(Include all must-have features)  
+**Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Advanced Features (Should-Haves)
+- **Feature 1:** Description of the implemented feature.
+- **Feature 2:** Description of the implemented feature.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+(Include all should-have features)  
+**Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Optional Features (Could-Haves)
+- **Feature 1:** Description of the implemented feature (if any).
+- **Feature 2:** Description of the implemented feature (if any).
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+(Include any could-have features that were implemented or considered)  
+**Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## AI Tools Usage
 
-------
+### GitHub Copilot
+Describe how GitHub Copilot assisted in coding, including any challenges or adjustments needed.  
+**Guidance:** Reflect on how GitHub Copilot assisted in coding, particularly any challenges or adjustments that were needed to align with project goals.
 
-## FAQ about the uptime script
+## Testing and Validation
 
-**Why have you added this script?**
+### Testing Results
+Summarize the results of testing across different devices and screen sizes.  
+Mention any issues found and how they were resolved.  
+**Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Validation
+Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
+Include the results of the validation process.  
+**Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
 
-**How will this affect me?**
+## AI Tools Usage
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### GitHub Copilot
+Brief reflection on the effectiveness of using AI tools for debugging and validation.  
+**Guidance:** Reflect on how GitHub Copilot assisted with debugging and validation, particularly any issues it helped resolve.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Deployment
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Deployment Process
+Briefly describe the deployment process to GitHub Pages or another cloud platform.  
+Mention any specific challenges encountered during deployment.  
+**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
 
-**So….?**
+## AI Tools Usage
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Reflection
+Describe the role AI tools played in the deployment process, including any benefits or challenges.  
+**Guidance:** Reflect on how AI tools assisted with the deployment process, particularly how they streamlined any tasks or presented challenges.
 
-**Can I opt out?**
+## Reflection on Development Process
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Successes
+Effective use of AI tools, including GitHub Copilot and DALL-E, and how they contributed to the development process.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Challenges
+Describe any challenges faced when integrating AI-generated content and how they were addressed.
 
-**Anything more?**
+### Final Thoughts
+Provide any additional insights gained during the project and thoughts on the overall process.  
+**Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Code Attribution
+Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
+**Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
 
----
-
-Happy coding!
+## Future Improvements
+Briefly discuss potential future improvements or features that could be added to the project.  
+**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
