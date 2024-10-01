@@ -211,7 +211,7 @@ footer {
     margin: 0;
 }
 
-/* -------------------------- Stress Tips */
+/* -------------------------- Stress section */
 
 .stress-section h3 {
     color: #5c3a9d;
@@ -267,6 +267,16 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/* -------------------------- Issues and Tips section */
+
+#issues-section {
+
+}
+
+#issues-section h2 {
+    text-align: center;
 }
 
 /* Quotes section */
