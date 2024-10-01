@@ -3,7 +3,7 @@
 ## Overview
 
 ### Purpose
-The purpose of this project, Mental Health Awareness, is to create an easy to naviagte and appealing website to create a positive user experience which in turn will make it as easy as possible for everyone, espeically beginners, to access imformation on mental health, recognising common issues and manage stress.
+The purpose of this project, Mental Health Awareness, is to create an easy to naviagte and appealing website to create a positive user experience which in turn will make it as easy as possible for everyone, espeically beginners, to access information on mental health, recognising common issues and manage stress.
 
 **Guidance:** Begin filling out this section during Phase 1: Ideation & Initial Setup. Clearly articulate the main goal of your project, what it aims to achieve, and how it will provide value to your target audience.
 

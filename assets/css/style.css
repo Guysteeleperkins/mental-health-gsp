@@ -98,6 +98,10 @@ main {
     margin-top: 126px;
 }
 
+#resources-main {
+    padding-top: 20px;
+}
+
 /* --------------------------- Hero Section */
 
 .hero-container {
@@ -436,13 +440,29 @@ footer {
 
 /* -------------------------- Resources section */
 
+#resource-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
 
 /* Media Query 590px or larger  */
 @media screen and (min-width: 590px) {
 
-    #resources-main,
     #stress-main {
         margin-top: 102px;
+    }
+
+    #resources-main {
+        margin-top: 130px;
+        padding-top: 20px;
     }
 }
 
@@ -450,9 +470,13 @@ footer {
 /* Media Query 768px or larger */
 @media screen and (min-width: 768px) {
 
-    #stress-main,
-    #resources-main {
+    #stress-main {
         margin-top: 162px;
+    }
+
+    #resources-main {
+        margin-top: 176px;
+        padding-top: 20px;
     }
 
     #left-issues,
