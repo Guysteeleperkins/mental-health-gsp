@@ -93,6 +93,11 @@ main {
     margin-top: 100px;
 }
 
+#resources-main,
+#stress-main {
+    margin-top: 126px;
+}
+
 /* --------------------------- Hero Section */
 
 .hero-container {
@@ -429,10 +434,24 @@ footer {
     border-top-color: #78be6a;
 }
 
+/* -------------------------- Resources section */
 
-/* Media Query 768px or larger (specifically for stress page */
-@media screen and (min-width: 768px) {
+
+/* Media Query 590px or larger  */
+@media screen and (min-width: 590px) {
+
+    #resources-main,
     #stress-main {
+        margin-top: 102px;
+    }
+}
+
+
+/* Media Query 768px or larger */
+@media screen and (min-width: 768px) {
+
+    #stress-main,
+    #resources-main {
         margin-top: 162px;
     }
 
