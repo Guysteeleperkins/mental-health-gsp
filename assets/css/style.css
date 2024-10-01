@@ -292,10 +292,8 @@ footer {
     max-height: 300px;
 }
 
-#cards-image,
-#left-issues,
 #right-issues {
-    margin: 10px 0px 10px 10px;
+    margin-bottom: 10px
 }
 
 #left-issues>div,
@@ -307,6 +305,16 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.issues-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 18rem;
 }
 
 /* Quotes section */
@@ -426,5 +434,64 @@ footer {
 @media screen and (min-width: 768px) {
     #stress-main {
         margin-top: 162px;
+    }
+
+    #left-issues,
+    #right-issues {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #left-issues>div,
+    #right-issues>div {
+        width: 75%;
+    }
+
+    #right-issues>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+}
+
+/* Media Query 1200px or larger (specifically for stress page) */
+@media screen and (min-width: 1200px) {
+
+    #issues-cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #issues-cards>div {
+        flex: 1;
+    }
+
+    #issues-image {
+        order: 0;
+    }
+
+    #right-issues {
+        order: 1;
+    }
+
+    #right-issues>div {
+        align-self: flex-start;
+    }
+
+    #left-issues>div {
+        align-self: flex-end;
+    }
+
+    #left-issues>div,
+    #right-issues>div {
+        width: 85%;
+    }
+
+
+    #issues-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
