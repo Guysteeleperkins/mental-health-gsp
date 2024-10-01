@@ -152,6 +152,10 @@ main {
     background-color: #e69c6a;
 }
 
+.stress-section-colour {
+    background-color: #3a89d8;
+}
+
 /* --------------------------- Special paddings/margins/text */
 
 h1,
@@ -205,4 +209,68 @@ footer {
     background-color: #525252;
     min-height: 100px;
     margin: 0;
+}
+
+/* -------------------------- Stress Tips */
+
+.stress-section h3 {
+    color: #5c3a9d;
+    text-align: center;
+}
+
+.stress-items {
+    margin-left: 30px
+}
+
+.history-heading {
+    color: #5c3a9d;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #5c3a9d;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Noto Serif", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #5c3a9d;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+/* Media Query 768px or larger (specifically for stress page */
+@media screen and (min-width: 768px) {
+    #stress-main {
+        margin-top: 162px;
+    }
 }
