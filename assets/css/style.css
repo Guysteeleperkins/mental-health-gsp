@@ -272,11 +272,41 @@ footer {
 /* -------------------------- Issues and Tips section */
 
 #issues-section {
-
+    width: 90%;
+    margin: 20px auto;
 }
 
 #issues-section h2 {
+    margin-bottom: 15px;
     text-align: center;
+    font-size: 250%;
+}
+
+#circle-issues-bg {
+    height: 100vw;
+    width: 100vw;
+    background: url('../images/luca-upper-Z-4kOr93RCI-unsplash.jpg') no-repeat center center/cover;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#cards-image,
+#left-issues,
+#right-issues {
+    margin: 10px 0px 10px 10px;
+}
+
+#left-issues>div,
+#right-issues>div {
+    margin-top: 10px;
+}
+
+#cards-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Quotes section */
@@ -375,14 +405,17 @@ footer {
     border-top-color: #FF7155;
 
 }
+
 .speech-bubble-3:after {
     border-left: 0;
     border-top-color: #ffc658;
 }
+
 .speech-bubble-4:after {
     border-right: 0;
     border-top-color: #e69c6a;
 }
+
 .speech-bubble-5:after {
     border-left: 0;
     border-top-color: #78be6a;
