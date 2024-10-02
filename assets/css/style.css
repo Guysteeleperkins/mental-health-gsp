@@ -156,6 +156,26 @@ main {
     background-color: #5c3a9d;
 }
 
+/* Common issues and tips card colours */
+.card-bg-1 {
+    background-color: #3a89d8;
+}
+
+.card-bg-2 {
+    background-color: #e69c6a;
+}
+
+.card-bg-3 {
+    background-color:  #FF7155;
+}
+
+.card-bg-4 {
+    background-color: #5d3a9db8;
+}
+
+.card-body h5 {
+    color: rgba(0, 0, 0, 0.688);
+}
 
 
 
@@ -276,14 +296,16 @@ footer {
 /* -------------------------- Issues and Tips section */
 
 #issues-section {
-    width: 90%;
-    margin: 20px auto;
+    width: 100%;
+    background-color: antiquewhite;
 }
 
-#issues-section h2 {
-    margin-bottom: 15px;
+#issues-section  {
     text-align: center;
-    font-size: 250%;
+}
+
+.card-text {
+    text-align: left;
 }
 
 #circle-issues-bg {
@@ -318,7 +340,7 @@ footer {
 }
 
 .card {
-    width: 18rem;
+    width: 20rem;
 }
 
 /* ------------------------- Quotes section */
@@ -531,5 +553,9 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .card {
+        height: 650px;
     }
 }
