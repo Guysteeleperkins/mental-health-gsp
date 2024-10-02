@@ -67,11 +67,11 @@ The main target for this website will be people who are first looking into menta
 
 Due to time pressures my Wireframes desgn was very basic. However having a basic layout prepared and using this as guidance was a huge benefit to beginning to code the main structure of the website. 
 
-<img src="/assets/screenshots/balsamiq.png" alt="A basic Wireframes desgin/sketch used as a guideline">
+<img src="assets/screenshots/balsamiq.png" alt="A basic Wireframes desgin/sketch used as a guideline">
 
 Using mind.org.uk for ideas on colour and layout I used dev tools to obtain one of the colours which I added to a colour pallet created by coolors.com : #fecb4e. A quick google search gave me an idea of what colours are associated with good mental health and positivity. With this guide I asked ChatGPT to adjust my colour pallet so the colours would work better with each other. This resulted in these colours: Persian orange, Tomato, Rebecca purple, Xanthous, Bleu de France. 
 
-<img src="/assets/screenshots/coolors-screenshot.png" alt="A colour pallet consisting of the 5 main colours I used">
+<img src="assets/screenshots/coolors-screenshot.png" alt="A colour pallet consisting of the 5 main colours I used">
 
 
 
@@ -123,23 +123,23 @@ Throughout the project I used Devtools resposinve feature to test how the websit
 
 ### Validation
 After completing my HTML and and CSS I put my index.html, stress.html and resources html into https://validator.w3.org/, all three brought back some minor errors which were easily fixed. I then valiadted my CSS which returned no errors, just minor warnings. 
-<img src="/assets/screenshots/css-validator-warnings.png" alt="index.html page HTML validator screenshot showing no erros">
-<img src="/assets/screenshots/css.png" alt="index.html page HTML validator screenshot showing no erros">
-<img src="/assets/screenshots/index.png" alt="index.html page HTML validator screenshot showing no erros">
-<img src="/assets/screenshots/stress.png" alt="index.html page HTML validator screenshot showing no erros">
-<img src="/assets/screenshots/resources.png" alt="index.html page HTML validator screenshot showing no erros">
+<img src="assets/screenshots/css-validator-warnings.png" alt="index.html page HTML validator screenshot showing no erros">
+<img src="assets/screenshots/css.png" alt="index.html page HTML validator screenshot showing no erros">
+<img src="assets/screenshots/index.png" alt="index.html page HTML validator screenshot showing no erros">
+<img src="assets/screenshots/stress.png" alt="index.html page HTML validator screenshot showing no erros">
+<img src="assets/screenshots/resources.png" alt="index.html page HTML validator screenshot showing no erros">
 For the warnings on my CSS I did not change any code as in a walkthrough video from the LMS in code-instutute these items were included.
 
 ### Lighthouse
 First Performance: BAD
 
-<img src="/assets/screenshots/lighthouse-test-1.png" alt="First lighthouse performace picture displaying 56/100 Performce">
+<img src="assets/screenshots/lighthouse-test-1.png" alt="First lighthouse performace picture displaying 56/100 Performce">
 
 I used ChatGPT to compress my image and then using https://towebp.io/ to convert my images to WEBP , After converting and changing the .jpg to .webp on the images I discovered a large class in my CSS that was unused and removed it.
 
 Second Performance: GOOD
 
-<img src="/assets/screenshots/lighthouse-test-2.png" alt="Second lighthouse performace picture displaying 95/100 Performce">
+<img src="assets/screenshots/lighthouse-test-2.png" alt="Second lighthouse performace picture displaying 95/100 Performce">
 
 
 ## Deployment

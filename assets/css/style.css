@@ -34,8 +34,8 @@ header {
     border-radius: 25px;
     margin: 5px 5px;
     font-family: "Noto Serif", sans-serif;
+    text-decoration: none;
 }
-
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -52,6 +52,18 @@ header {
 #menu {
     margin: 0;
     height: 116px;
+    /* Added CSS for new nav bar*/
+    width: 100%;
+}
+
+/* Added CSS for new nav bar*/
+#navbar-new {
+    padding: 0;
+}
+
+.container-fluid {
+    --bs-gutter-x: 0rem;
+    margin-right: 0;
 }
 
 #menu li {

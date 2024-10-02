@@ -18,84 +18,53 @@
 <body>
     <!-- HEADER -->
     <header class="header-bg-colour">
-        <!-- CALLOUT -->
         <div class="row header-top">
             <div class="col-md-12">
                 <div class="get-help">
                     <button type="button" id="btn" class="btn btn-lg btn-warning" data-bs-toggle="popover"
-                        data-bs-title="NHS Helpline" data-bs-placement="bottom"
-                        data-bs-content="Call 111">Get Help
+                        data-bs-title="NHS Helpline" data-bs-placement="bottom" data-bs-content="Call 111">Get Help
                     </button>
                 </div>
             </div>
         </div>
-
-        <!-- HEADER -->
-        <div class="row no-gutters header-top align-items-center">
-            <!-- Logo -->
-            <div class="col-8 col-sm-8 col-md-4">
-                <a href="index.html" class="logo-link">
-                    <div class="row">
-                        <div class="col logo">
-                            <h1>Mental Health Awareness</h1>
+        <nav id="navbar-new" class="navbar navbar-expand-lg navbar-light header-top">
+            <div class="container-fluid">
+                <div class="col-8 col-sm-8 col-md-4">
+                    <a href="index.html">
+                        <div class="row">
+                            <div class="col logo">
+                                <h1>Mental Health Awareness</h1>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Regular Menu (Visible on md and larger screens) -->
-            <div class="d-none d-md-block col-md-8">
-                <div class="row no-gutters">
-                    <div class="col">
-                        <ul id="menu" class="list-inline menu-container">
-                            <li class="col-4 menu-item menu-home-colour list-inline-item">
-                                <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
-                            </li>
-                            <li class="col-4 menu-item menu-stress-colour list-inline-item">
-                                <a class="nav-link" href="stress.html"><i class="fa-solid fa-brain"></i> Managing
-                                    Stress</a>
-                            </li>
-                            <li class="col-4 menu-item menu-resources-colour list-inline-item">
-                                <a class="nav-link" href="resources.html"><i class="fa-solid fa-book-open"></i>
-                                    Resources</a>
-                            </li>
-                        </ul>
-                    </div>
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul id="menu" class="list-inline menu-container navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="col-4 menu-item menu-home-colour list-inline-item">
+                            <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                        </li>
+                        <li class="col-4 menu-item menu-stress-colour list-inline-item">
+                            <a class="nav-link" href="stress.html"><i class="fa-solid fa-brain"></i> Managing
+                                Stress</a>
+                        </li>
+                        <li class="col-4 menu-item menu-resources-colour list-inline-item">
+                            <a class="nav-link" href="resources.html"><i class="fa-solid fa-book-open"></i>
+                                Resources</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-
-            <!-- Mobile Dropdown Menu (Visible only on screens smaller than md) -->
-            <nav class="navbar navbar-expand-md col-4 col-sm-4 d-md-none">
-                <div class="container-fluid">
-                    <!-- Mobile Toggle Button -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-items"
-                        aria-controls="nav-items" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <!-- Collapsible Menu for Mobile -->
-                    <div class="collapse navbar-collapse" id="nav-items">
-                        <ul class="navbar-nav w-100">
-                            <li class="nav-item col-12 col-sm-4 menu-home-colour">
-                                <a class="nav-link" href="#"><i class="fa-solid fa-house"></i> Home</a>
-                            </li>
-                            <li class="nav-item col-6 col-sm-4 menu-stress-colour">
-                                <a class="nav-link" href="#"><i class="fa-solid fa-brain"></i> Managing Stress</a>
-                            </li>
-                            <li class="nav-item col-6 col-sm-4 menu-resources-colour">
-                                <a class="nav-link" href="#"><i class="fa-solid fa-book-open"></i> Resources</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+        </nav>
     </header>
 
     <!-- MAIN -->
     <main>
         <!-- Hero Section -->
-        <section id="hero" >
+        <section id="hero">
             <div id="cover-text">
                 <h2>“Promise me you’ll always remember — you’re braver than you believe, and stronger than you seem, and
                     smarter than you think.” — <i>Christopher Robin from Winnie the Pooh</i></h2>
@@ -112,9 +81,15 @@
                             <h5 class="card-title">Anxiety and Panic attacks</h5>
                             <div class="card-text">
                                 <ul class="card-text">
-                                    <li><strong>Deep Breathing</strong>: Focus on slow, deep breaths, inhaling for 4 seconds, holding for 4 seconds, and exhaling for 4 seconds. This can help regulate breathing and reduce symptoms.</li>
-                                    <li><strong>Grounding Techniques</strong>: Focus on your surroundings, noticing sights, sounds, and textures. This can help you feel more connected to reality and reduce feelings of detachment.</li>
-                                    <li><strong>Progressive Muscle Relaxation</strong>: Tense and then relax different muscle groups, starting from your toes and moving up to your head. This can help release physical tension.</li>
+                                    <li><strong>Deep Breathing</strong>: Focus on slow, deep breaths, inhaling for 4
+                                        seconds, holding for 4 seconds, and exhaling for 4 seconds. This can help
+                                        regulate breathing and reduce symptoms.</li>
+                                    <li><strong>Grounding Techniques</strong>: Focus on your surroundings, noticing
+                                        sights, sounds, and textures. This can help you feel more connected to reality
+                                        and reduce feelings of detachment.</li>
+                                    <li><strong>Progressive Muscle Relaxation</strong>: Tense and then relax different
+                                        muscle groups, starting from your toes and moving up to your head. This can help
+                                        release physical tension.</li>
                                 </ul>
                             </div>
                         </div>
@@ -125,18 +100,22 @@
                             <div class="card-text">
                                 <ul class="card-text">
                                     <li><strong>Identifying Triggers</strong>
-                                      <ul>
-                                        <li>Recognize your personal triggers, such as specific situations, people, or events, that can lead to anger.</li>
-                                        <li>Be aware of your physical warning signs, like a racing heart or tense muscles, that indicate your anger is building.</li>
-                                      </ul>
+                                        <ul>
+                                            <li>Recognize your personal triggers, such as specific situations, people,
+                                                or events, that can lead to anger.</li>
+                                            <li>Be aware of your physical warning signs, like a racing heart or tense
+                                                muscles, that indicate your anger is building.</li>
+                                        </ul>
                                     </li>
                                     <li><strong>Managing Anger</strong>
-                                      <ul>
-                                        <li>Practice relaxation techniques, like deep breathing, progressive muscle relaxation, or meditation, to calm down quickly.</li>
-                                        <li>Engage in physical activity, such as exercise or yoga, to release tension and improve your mood.</li>
-                                      </ul>
+                                        <ul>
+                                            <li>Practice relaxation techniques, like deep breathing, progressive muscle
+                                                relaxation, or meditation, to calm down quickly.</li>
+                                            <li>Engage in physical activity, such as exercise or yoga, to release
+                                                tension and improve your mood.</li>
+                                        </ul>
                                     </li>
-                                </ul>                                  
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -147,16 +126,20 @@
                             <h5 class="card-title">Depression</h5>
                             <p class="card-text">
                                 <ul class="card-text">
-                                    <li><strong>Exercise for Mental Health</strong>: Exercise is a natural and effective way to reduce stress, improve mood, and alleviate symptoms of depression. It can also improve energy levels, balance, and flexibility.</li>
-                                    <li><strong>Self-Care and Routine</strong>: Establishing a daily routine can help provide structure and stability, which can be beneficial for individuals struggling with depression. This can include activities such as:
-                                      <ul>
-                                        <li>Cooking and eating regular meals</li>
-                                        <li>Staying active, even if it’s just a short walk</li>
-                                        <li>Practicing mindfulness or meditation</li>
-                                        <li>Engaging in hobbies or creative activities</li>
-                                      </ul>
+                                    <li><strong>Exercise for Mental Health</strong>: Exercise is a natural and effective
+                                        way to reduce stress, improve mood, and alleviate symptoms of depression. It can
+                                        also improve energy levels, balance, and flexibility.</li>
+                                    <li><strong>Self-Care and Routine</strong>: Establishing a daily routine can help
+                                        provide structure and stability, which can be beneficial for individuals
+                                        struggling with depression. This can include activities such as:
+                                        <ul>
+                                            <li>Cooking and eating regular meals</li>
+                                            <li>Staying active, even if it’s just a short walk</li>
+                                            <li>Practicing mindfulness or meditation</li>
+                                            <li>Engaging in hobbies or creative activities</li>
+                                        </ul>
                                     </li>
-                                </ul>                                
+                                </ul>
                             </p>
                         </div>
                     </div>
@@ -164,12 +147,19 @@
                         <div class="card-body card-bg-4">
                             <h5 class="card-title">Loneliness</h5>
                             <ul class="card-text">
-                                <li><strong>Talk to someone</strong>: Share your feelings with a trusted friend, family member, or healthcare professional. Talking can help you feel heard and understood.</li>
-                                <li><strong>Join a friendship group or club</strong>: Engage in activities that interest you and meet new people with similar passions.</li>
-                                <li><strong>Volunteer</strong>: Helping others can give you a sense of purpose and connection.</li>
-                                <li><strong>Take advantage of befriending services</strong>: Age UK’s Telephone Friendship Service, face-to-face befriending, and other local services can match you with someone to talk to.</li>
-                                <li><strong>Look after yourself</strong>: Prioritize your physical and mental well-being, as neglecting your own needs can exacerbate feelings of loneliness.</li>
-                              </ul>
+                                <li><strong>Talk to someone</strong>: Share your feelings with a trusted friend, family
+                                    member, or healthcare professional. Talking can help you feel heard and understood.
+                                </li>
+                                <li><strong>Join a friendship group or club</strong>: Engage in activities that interest
+                                    you and meet new people with similar passions.</li>
+                                <li><strong>Volunteer</strong>: Helping others can give you a sense of purpose and
+                                    connection.</li>
+                                <li><strong>Take advantage of befriending services</strong>: Age UK’s Telephone
+                                    Friendship Service, face-to-face befriending, and other local services can match you
+                                    with someone to talk to.</li>
+                                <li><strong>Look after yourself</strong>: Prioritize your physical and mental
+                                    well-being, as neglecting your own needs can exacerbate feelings of loneliness.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
