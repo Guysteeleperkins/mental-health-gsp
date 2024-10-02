@@ -135,11 +135,11 @@ First Performance: BAD
 
 <img src="/assets/screenshots/lighthouse-test-1.png" alt="First lighthouse performace picture displaying 56/100 Performce">
 
-Using https://towebp.io/ to convert my images to WEBP , After converting and changing the .jpg to .webp on the images I discovered a large class in my CSS that was unused and removed it.
+I used ChatGPT to compress my image and then using https://towebp.io/ to convert my images to WEBP , After converting and changing the .jpg to .webp on the images I discovered a large class in my CSS that was unused and removed it.
 
-Second Performance
+Second Performance: GOOD
 
-<img src="/assets/screenshots/lighthouse-test-2.png" alt="First lighthouse performace picture displaying 56/100 Performce">
+<img src="/assets/screenshots/lighthouse-test-2.png" alt="Second lighthouse performace picture displaying 95/100 Performce">
 
 
 ## Deployment
