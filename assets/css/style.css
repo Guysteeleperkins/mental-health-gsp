@@ -145,11 +145,13 @@ main {
 
 /* --------------------------- Colours */
 
-.header-bg-colour {
+.header-bg-colour,
+.card-1 {
     background-color: antiquewhite;
 }
 
-.menu-home-colour {
+.menu-home-colour,
+.card-2 {
     background-color: #FF7155;
 }
 
@@ -157,13 +159,23 @@ main {
     background-color: #3a89d8;
 }
 
-.menu-resources-colour {
+.menu-resources-colour,
+.card-4 {
     background-color: #e69c6a;
 }
 
-.stress-section-colour {
+.stress-section-colour,
+.card-5 {
     background-color: #3a89d8;
 }
+
+.card-3 {
+    background-color: #5c3a9d;
+}
+
+
+
+
 
 /* --------------------------- Special paddings/margins/text */
 
