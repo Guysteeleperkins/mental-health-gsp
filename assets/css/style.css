@@ -205,10 +205,9 @@ h4 {
 /* --------------------------- Buttons */
 
 .btn-warning {
-    background-color: #5c3a9d;
     color: #FAF9F6;
     width: 160px;
-    height: 25px;
+    height: 30px;
     padding: 0 12px;
 
 }
@@ -216,6 +215,7 @@ h4 {
 #btn {
     border: none;
     color: #5c3a9d;
+    font-family: "Roboto", sans-serif;
 }
 
 /* Moving button to right hand side */
@@ -338,7 +338,7 @@ footer {
     width: 18rem;
 }
 
-/* Quotes section */
+/* ------------------------- Quotes section */
 
 #quotes-section {
     height: 1064px;
@@ -368,7 +368,7 @@ footer {
 
 }
 
-/* Speech bubble */
+/* ---------------------------- Speech bubble */
 
 #bubble-position {
     display: flex;
