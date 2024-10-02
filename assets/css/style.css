@@ -104,23 +104,6 @@ main {
 
 /* --------------------------- Hero Section */
 
-.hero-container {
-    height: 100vh;
-
-    background: url('../images/dan-meyers-hluOJZjLVXc-unsplash.webp') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-
-}
-
 #hero {
     height: 600px;
     width: 100%;
