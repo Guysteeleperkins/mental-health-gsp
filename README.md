@@ -82,9 +82,8 @@ Discuss how accessibility guidelines were adhered to, including colour contrast 
 
 ## AI Tools Usage
 
-### DALL-E
-Describe how DALL-E was used for image generation, including examples of successes and challenges.  
-**Guidance:** Specifically mention how you used DALL-E for image generation and the impact this had on your design process.
+### ChatGPT
+I used ChatGPT for general bug fixes and to help with some flexbox properties. A quick google search gave me an idea of what colours are associated with good mental health and positivity. With this guide I asked ChatGPT to adjust my colour pallet so the colours would work better with each other. This resulted in these colours: Persian orange, Tomato, Rebecca purple, Xanthous, Bleu de France. 
 
 ## Features Implementation
 
