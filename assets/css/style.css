@@ -107,7 +107,7 @@ main {
 .hero-container {
     height: 100vh;
 
-    background: url('../images/dan-meyers-hluOJZjLVXc-unsplash.jpg') no-repeat center center fixed;
+    background: url('../images/dan-meyers-hluOJZjLVXc-unsplash.webp') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -124,7 +124,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url('../images/dan-meyers-hluOJZjLVXc-unsplash.jpg') no-repeat center center/cover;
+    background: url('../images/dan-meyers-hluOJZjLVXc-unsplash.webp') no-repeat center center/cover;
     position: relative;
 }
 
@@ -306,7 +306,7 @@ footer {
 #circle-issues-bg {
     height: 100vw;
     width: 100vw;
-    background: url('../images/luca-upper-Z-4kOr93RCI-unsplash.jpg') no-repeat center center/cover;
+    background: url('../images/luca-upper-Z-4kOr93RCI-unsplash.webp') no-repeat center center/cover;
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
@@ -343,7 +343,7 @@ footer {
 #quotes-section {
     height: 1064px;
     width: 100%;
-    background: url('../images/deniz-altindas-t1XLQvDqt_4-unsplash.jpg') no-repeat center center/cover;
+    background: url('../images/deniz-altindas-t1XLQvDqt_4-unsplash.webp') no-repeat center center/cover;
     position: relative;
 
 }

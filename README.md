@@ -131,7 +131,9 @@ After completing my HTML and and CSS I put my index.html, stress.html and resour
 For the warnings on my CSS I did not change any code as in a walkthrough video from the LMS in code-instutute these items were included.
 
 ### Lighthouse
+First Performance: BAD
 
+Using https://towebp.io/ to convert my images to WEBP 
 
 
 ## Deployment
