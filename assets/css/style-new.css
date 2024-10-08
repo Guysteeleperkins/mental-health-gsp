@@ -66,6 +66,79 @@
     color: #FFFFFF;
 }
 
+/* Issues and Tips section */
+
+#issues-section {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#issues-section  {
+    text-align: center;
+}
+
+.card-text {
+    text-align: left;
+}
+
+#circle-issues-bg {
+    height: 100vw;
+    width: 100vw;
+    background: url('../images/luca-upper-Z-4kOr93RCI-unsplash.webp') no-repeat center center/cover;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#right-issues {
+    margin-bottom: 10px
+}
+
+#left-issues>div,
+#right-issues>div {
+    margin-top: 10px;
+}
+
+#cards-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.issues-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 20rem;
+}
+
+/* Common issues and tips card colours */
+
+.card-bg-1 {
+    background-color: #3a89d8;
+}
+
+.card-bg-2 {
+    background-color: #e69c6a;
+}
+
+.card-bg-3 {
+    background-color:  #FF7155;
+}
+
+.card-bg-4 {
+    background-color: #5d3a9db8;
+}
+
+.card-body h5 {
+    color: rgba(0, 0, 0, 0.688);
+}
+
+
 /* Media Query 576px or larger */
 @media screen and (min-width: 576px) {
     .menu-home-colour {
@@ -88,9 +161,85 @@
 
 }
 
+/* Media Query 768px or larger */
+@media screen and (min-width: 768px) {
+
+    #stress-main {
+        margin-top: 162px;
+    }
+
+    #resources-main {
+        margin-top: 176px;
+        padding-top: 20px;
+    }
+
+    #left-issues,
+    #right-issues {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #left-issues>div,
+    #right-issues>div {
+        width: 75%;
+    }
+
+    #right-issues>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+}
+
 /* Media Query 880px or larger */
 @media screen and (min-width: 880px) {
     .nav-item a {
         font-size: 150%;
+    }
+}
+
+/* Media Query 1200px or larger (specifically for stress page) */
+@media screen and (min-width: 1200px) {
+
+    #issues-cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #issues-cards>div {
+        flex: 1;
+    }
+
+    #issues-image {
+        order: 0;
+    }
+
+    #right-issues {
+        order: 1;
+    }
+
+    #right-issues>div {
+        align-self: flex-start;
+    }
+
+    #left-issues>div {
+        align-self: flex-end;
+    }
+
+    #left-issues>div,
+    #right-issues>div {
+        width: 85%;
+    }
+
+
+    #issues-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-home {
+        height: 650px;
     }
 }
