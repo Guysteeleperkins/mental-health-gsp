@@ -24,7 +24,7 @@
     padding: 0 !important;
 }
 
-#navbar > div {
+#navbar>div {
     height: 100px;
 }
 
@@ -46,7 +46,65 @@
     background-color: antiquewhite !important;
 }
 
+/* Back to top button */
 
+#back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid #333;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+    z-index: 100000000;
+}
+
+#back-to-top-btn:hover,
+#back-to-top-btn:focus {
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* Text meant only for screen readers */
+.screen-reader-text {
+    position: absolute;
+    clip-path: inset(50%);
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    word-wrap: normal !important;
+    clip: rect(1px, 1px, 1px, 1px);
+
+    &:focus {
+        display: block;
+        top: 5px;
+        left: 5px;
+        z-index: 100000;
+        /* Above WP toolbar */
+        clip-path: none;
+        background-color: #eee;
+        padding: 15px 23px 14px;
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        line-height: normal;
+        color: #444;
+        font-size: 1em;
+        clip: auto !important;
+    }
+}
 
 /* Hero Section */
 
@@ -77,7 +135,6 @@
 #issues-section {
     width: 100%;
     background-color: antiquewhite;
-    text-align: center;
 }
 
 .issues-title {
@@ -86,6 +143,11 @@
 
 .issues-title h2 {
     color: #5c3a9d;
+    text-align: center;
+}
+
+.card-title {
+    text-align: center !important;
 }
 
 .card-text {
@@ -138,7 +200,7 @@
 }
 
 .card-bg-3 {
-    background-color:  #FF7155;
+    background-color: #FF7155;
 }
 
 .card-bg-4 {
@@ -149,17 +211,32 @@
     color: rgba(0, 0, 0, 0.688);
 }
 
+/* Footer */
+
+footer {
+    background-color: #525252;
+    min-height: 100px;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none !important;
+}
 
 /* Media Query 576px or larger */
 @media screen and (min-width: 576px) {
     .menu-home-colour {
         background-color: #FF7155;
     }
-    
+
     .menu-stress-colour {
         background-color: #3a89d8;
     }
-    
+
     .menu-resources-colour {
         background-color: #e69c6a;
     }
