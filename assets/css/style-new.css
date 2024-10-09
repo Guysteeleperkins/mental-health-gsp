@@ -43,7 +43,7 @@
 }
 
 .header-bg-colour {
-    background-color: antiquewhite !important;
+    background-color: #5c3a9d !important;
 }
 
 /* Back to top button */
@@ -55,11 +55,11 @@
     font-size: 15px;
     width: 30px;
     height: 30px;
-    background-color: #fff;
-    color: #333;
+    background-color: #e69c6a;
+    color: #3a89d8;
     cursor: pointer;
     outline: none;
-    border: 3px solid #333;
+    border: 3px solid #3a89d8;
     border-radius: 50%;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
@@ -69,10 +69,9 @@
 
 #back-to-top-btn:hover,
 #back-to-top-btn:focus {
-    background-color: #333;
-    color: #fff;
+    background-color: #3a89d8;
+    color: #e69c6a;
 }
-
 
 /* Text meant only for screen readers */
 .screen-reader-text {
