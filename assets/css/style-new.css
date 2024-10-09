@@ -210,6 +210,180 @@
     color: rgba(0, 0, 0, 0.688);
 }
 
+/* --Stress section-- */
+
+.stress-section-colour {
+    background-color: #3a89d8;
+}
+
+.stress-section h3 {
+    color: #5c3a9d;
+    text-align: center;
+    font-family: "Noto Serif", sans-serif;
+}
+
+.stress-items {
+    margin-left: 30px
+}
+
+.history-heading {
+    color: #5c3a9d;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #5c3a9d;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Noto Serif", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #5c3a9d;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+/* Speech bubble */
+
+#bubble-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble-size {
+    width: 250px;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.speech-bubble {
+    position: relative;
+    border-radius: 1em;
+}
+
+.speech-bubble-1 {
+    background: antiquewhite;
+}
+
+.speech-bubble-2 {
+    background: #FF7155;
+}
+
+.speech-bubble-3 {
+    background: #ffc658;
+}
+
+.speech-bubble-4 {
+    background: #e69c6a;
+}
+
+.speech-bubble-5 {
+    background: #78be6a;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 25px solid transparent;
+    border-bottom: 0;
+    margin-left: -12.5px;
+    margin-bottom: -25px;
+}
+
+.speech-bubble-1:after {
+    border-left: 0;
+    border-top-color: antiquewhite;
+}
+
+.speech-bubble-2:after {
+    border-right: 0;
+    border-top-color: #FF7155;
+
+}
+
+.speech-bubble-3:after {
+    border-left: 0;
+    border-top-color: #ffc658;
+}
+
+.speech-bubble-4:after {
+    border-right: 0;
+    border-top-color: #e69c6a;
+}
+
+.speech-bubble-5:after {
+    border-left: 0;
+    border-top-color: #78be6a;
+}
+
+#quotes-section {
+    height: 1064px;
+    width: 100%;
+    background: url('../images/deniz-altindas-t1XLQvDqt_4-unsplash.webp') no-repeat center center/cover;
+    position: relative;
+
+}
+
+#quotes-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.quotes-section {
+    height: 100%;
+}
+
+.quotes-section h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    text-align: center;
+    padding-top: 20px;
+
+
+}
+
+/* Stress Section End */
+
 /* Footer */
 
 footer {
@@ -250,10 +424,6 @@ footer a {
 
 /* Media Query 768px or larger */
 @media screen and (min-width: 768px) {
-
-    #stress-main {
-        margin-top: 162px;
-    }
 
     #resources-main {
         margin-top: 176px;
