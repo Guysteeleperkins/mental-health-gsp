@@ -145,28 +145,26 @@ main {
     background-color: antiquewhite;
 }
 
-.menu-home-colour,
 .card-2 {
     background-color: #FF7155;
+}
+
+.card-3 {
+    background-color: #5c3a9d;
 }
 
 .menu-stress-colour {
     background-color: #3a89d8;
 }
 
-.menu-resources-colour,
 .card-4 {
     background-color: #e69c6a;
 }
 
-.stress-section-colour,
 .card-5 {
     background-color: #3a89d8;
 }
 
-.card-3 {
-    background-color: #5c3a9d;
-}
 
 /* Common issues and tips card colours */
 .card-bg-1 {

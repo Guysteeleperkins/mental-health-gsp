@@ -212,8 +212,12 @@
 
 /* --Stress section-- */
 
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
 .stress-section-colour {
-    background-color: #3a89d8;
+    background-color: antiquewhite;
 }
 
 .stress-section h3 {
@@ -384,6 +388,44 @@
 
 /* Stress Section End */
 
+/* Resource Section */
+
+.resource-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.card-1 {
+    background-color: antiquewhite;
+}
+
+.card-2 {
+    background-color: #FF7155;
+}
+
+.card-3 {
+    background-color: #5c3a9d;
+}
+
+.menu-stress-colour {
+    background-color: #3a89d8;
+}
+
+.card-4 {
+    background-color: #e69c6a;
+}
+
+.card-5 {
+    background-color: #3a89d8;
+}
+
 /* Footer */
 
 footer {
@@ -426,7 +468,6 @@ footer a {
 @media screen and (min-width: 768px) {
 
     #resources-main {
-        margin-top: 176px;
         padding-top: 20px;
     }
 
