@@ -49,6 +49,8 @@
 
     <!-- MAIN -->
     <main id="stress-main">
+        <!-- Back to top button -->
+        <button id="back-to-top-btn"><i class="fa-solid fa-angle-double-up"></i></button>
         <!-- Managing stress -->
         <div class="row">
             <div class="col-md-8 stress-section-colour stress-section">
@@ -194,6 +196,7 @@
         const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
         const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
     </script>
+    <script src="/main.js"></script>
 </body>
 
 </html>
