@@ -347,7 +347,7 @@
 
 .speech-bubble-1:after {
     border-left: 0;
-    border-top-color: antiquewhite;
+    border-top-color: #78be6a;
 }
 
 .speech-bubble-2:after {
@@ -368,7 +368,7 @@
 
 .speech-bubble-5:after {
     border-left: 0;
-    border-top-color: #78be6a;
+    border-top-color: antiquewhite;
 }
 
 #quotes-section {
