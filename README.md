@@ -152,6 +152,9 @@ ChatGPT was helpful for debugging and giving fast answers to minor questions (e.
 
 Time managment and knowing when to move on to a different part of the project was sometimes difficult, I always like to solve a problem there and then but this lead to too much time being spent on minor styling details. In the future I will create the very basic HTML structure first and create the MUST-HAVE features before styling.
 
+UPDATE:
+Having spent some time adding styles and changing the navbar I am much happier with the end result! I Am looking forward to adding to the site as I learn more skills to impliment the future plans and create new ideas for improvement!
+
 
 ## Resources
 https://www.gitpod.io/
@@ -177,3 +180,11 @@ https://www.samaritans.org/
  - Less messy CSS
  - Reactive numbers so a user can call a number from their phone
  - Feedback form
+
+ ## Updates and improvements since deadline submission
+
+ - As mentioned above I spent a lot of time on the NavBar which didnt end up functioning how I wanted. I spent some evenings starting from scratching using bootstrap to achieve the final product that is now updated and works more smoothly, mainly pushing the content of the page down when the burger icon is expanded for mobile devices. This also meant that the NavBar has been changed from sticky to fixed.
+ - Styling: The styling and colours were almost complete and therefore only a few adjustments were made to clean up the site. 
+ - After reflection, On mobile devices espeically, users would want to be able to get back to the top of the screen after scrolling down. (This originally wasnt a problem as the navbar was sticky). I added some JS code after following a tutorial on youtube for a "back to top" button which increased the UX of the site. 
+ - Back to top button walkthrough: https://www.youtube.com/watch?v=gphMli74Chk
+ - The footer was unfinished and a few minor styles were added to complete this.
