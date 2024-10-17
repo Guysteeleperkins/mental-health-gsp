@@ -400,6 +400,7 @@
 
 #resources-main {
     background-color: antiquewhite;
+    padding-top: 20px;
 }
 
 .resource-col {
@@ -507,6 +508,10 @@ footer a {
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
+    }
+
+    #resources-main {
+        padding-top: 20px;
     }
 
 }
