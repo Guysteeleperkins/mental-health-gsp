@@ -152,6 +152,11 @@
     font-family: "Noto Serif", sans-serif;
 }
 
+.card-main-bg-colour {
+    background-color: antiquewhite !important;
+    border-color: antiquewhite !important;
+}
+
 .card-title {
     text-align: center !important;
 }
