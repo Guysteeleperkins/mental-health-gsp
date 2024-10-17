@@ -409,9 +409,25 @@
     margin-bottom: 20px;
 }
 
+.resource-col a {
+    background-color: #525252 !important;
+    border-color: #525252 !important;
+}
+
+.resource-col a:hover {
+    background-color: #242424 !important;
+    border-color: #242424 !important;
+}
+
+.card-bg {
+    background-color: antiquewhite;
+    border-color: antiquewhite !important;
+}
+
 .card-body {
     text-align: center;
     font-family: "Roboto", sans-serif;
+    border-radius: 20px;
 }
 
 .card-1 {
@@ -423,7 +439,7 @@
 }
 
 .card-3 {
-    background-color: #5c3a9d;
+    background-color: #5d3a9d9a;
 }
 
 .card-4 {
