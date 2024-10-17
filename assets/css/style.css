@@ -2,125 +2,122 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* --Header-- */
 
-/* --------------------------- Header */
+/* Logo */
 
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    z-index: 1000;
-
+.logo-container {
+    height: 100px;
+    width: 100px;
 }
 
-.header-top a {
-    text-decoration: none;
-    text-align: center;
+.mha-logo {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: 5px 0 0 5px;
 }
 
-.get-help {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+/* Header Navbar */
+
+#navbar {
+    padding: 0 !important;
 }
 
-
-.logo h1 {
-    color: #5c3a9d;
+#nav-btn-container {
+    margin-right: 20px;
     background-color: #ffc658;
-    border-radius: 25px;
-    margin: 5px 5px;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    border-color: #9933CC; /* change this to your desired color */
+    box-shadow: none;
+  }
+
+#navbar-items {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.nav-item a {
     font-family: "Noto Serif", sans-serif;
-    text-decoration: none;
-}
-
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
-
-.menu-container {
-    font-size: 0;
-}
-
-#menu-nav {
-    padding: 0;
-}
-
-#menu {
-    margin: 0;
-    height: 116px;
-    /* Added CSS for new nav bar*/
-    width: 100%;
-}
-
-/* Added CSS for new nav bar*/
-#navbar-new {
-    padding: 0;
-}
-
-.container-fluid {
-    --bs-gutter-x: 0rem;
-    margin-right: 0;
-}
-
-#menu li {
-    font-size: 14px;
-}
-
-.menu-item {
-    height: 116px;
-    text-align: center;
-    padding: 0;
-}
-
-.menu-item a {
-    width: 100%;
-    text-decoration: none;
-    height: 60px;
-    color: #5c3a9d;
-}
-
-.menu-item a i {
-    padding-top: 30px;
-    display: block;
-    color: #5c3a9d;
-    font-size: 26px;
-}
-
-.menu-item span {
-    font-family: "Noto Serif", sans-serif;
-    display: block;
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
     font-weight: 600;
+    color: #ffc658;
+    width: 100%;
+    margin-left: 10px;
 }
 
-/* --------------------------- Main body */
-
-main {
-    margin-top: 100px;
+.header-bg-colour {
+    background-color: #5d3a9d9a !important;
 }
 
-#resources-main,
-#stress-main {
-    margin-top: 126px;
+/* Back to top button */
+
+#back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: #e69c6a;
+    color: #3a89d8;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid #3a89d8;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+    z-index: 100000000;
 }
 
-#resources-main {
-    padding-top: 20px;
+#back-to-top-btn:hover,
+#back-to-top-btn:focus {
+    background-color: #3a89d8;
+    color: #e69c6a;
 }
 
-/* --------------------------- Hero Section */
+/* Text meant only for screen readers */
+.screen-reader-text {
+    position: absolute;
+    clip-path: inset(50%);
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    word-wrap: normal !important;
+    clip: rect(1px, 1px, 1px, 1px);
+
+    &:focus {
+        display: block;
+        top: 5px;
+        left: 5px;
+        z-index: 100000;
+        /* Above WP toolbar */
+        clip-path: none;
+        background-color: #eee;
+        padding: 15px 23px 14px;
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        line-height: normal;
+        color: #444;
+        font-size: 1em;
+        clip: auto !important;
+    }
+}
+
+/* Hero Section */
 
 #hero {
     height: 600px;
     width: 100%;
     background: url('../images/dan-meyers-unsplash_compressed.webp') no-repeat center center/cover;
-    position: relative;
+    position: sticky;
 }
 
 #cover-text {
@@ -138,35 +135,68 @@ main {
     color: #FFFFFF;
 }
 
-/* --------------------------- Colours */
+/* Issues and Tips section */
 
-.header-bg-colour,
-.card-1 {
+#issues-section {
+    width: 100%;
     background-color: antiquewhite;
 }
 
-.card-2 {
-    background-color: #FF7155;
+.issues-title {
+    padding-top: 10px;
 }
 
-.card-3 {
-    background-color: #5c3a9d;
+.issues-title h2 {
+    color: #5c3a9d;
+    text-align: center;
+    font-family: "Noto Serif", sans-serif;
 }
 
-.menu-stress-colour {
-    background-color: #3a89d8;
+.card-title {
+    text-align: center !important;
 }
 
-.card-4 {
-    background-color: #e69c6a;
+.card-text {
+    text-align: left;
 }
 
-.card-5 {
-    background-color: #3a89d8;
+#circle-issues-bg {
+    height: 100vw;
+    width: 100vw;
+    background: url('../images/luca-upper-Z-4kOr93RCI-unsplash.webp') no-repeat center center/cover;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 
+#right-issues {
+    margin-bottom: 10px
+}
+
+#left-issues>div,
+#right-issues>div {
+    margin-top: 10px;
+}
+
+#cards-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.issues-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 20rem;
+}
 
 /* Common issues and tips card colours */
+
 .card-bg-1 {
     background-color: #3a89d8;
 }
@@ -176,7 +206,7 @@ main {
 }
 
 .card-bg-3 {
-    background-color:  #FF7155;
+    background-color: #FF7155;
 }
 
 .card-bg-4 {
@@ -187,70 +217,21 @@ main {
     color: rgba(0, 0, 0, 0.688);
 }
 
+/* --Stress section-- */
 
-
-
-/* --------------------------- Special paddings/margins/text */
-
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
+.row {
+    --bs-gutter-x: 0 !important;
 }
 
-.uppercase {
-    text-transform: uppercase;
+.stress-section-colour {
+    background-color: antiquewhite;
 }
-
-.general-sub-heading {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    color: #FAF9F6;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-
-
-/* --------------------------- Buttons */
-
-.btn-warning {
-    color: #FAF9F6;
-    width: 160px;
-    height: 30px;
-    padding: 0 12px;
-
-}
-
-#btn {
-    border: none;
-    color: #5c3a9d;
-    font-family: "Roboto", sans-serif;
-}
-
-/* Moving button to right hand side */
-.navbar>.container-fluid {
-    justify-content: flex-end;
-    margin-right: 10px;
-}
-
-/* --------------------------- Footer */
-
-footer {
-    background-color: #525252;
-    min-height: 100px;
-    margin: 0;
-}
-
-/*  Stress section */
 
 .stress-section h3 {
     color: #5c3a9d;
     text-align: center;
     font-family: "Noto Serif", sans-serif;
+    padding-top: 10px;
 }
 
 .stress-items {
@@ -303,87 +284,7 @@ footer {
     margin-bottom: 30px;
 }
 
-/* Issues and Tips section */
-
-#issues-section {
-    width: 100%;
-    background-color: antiquewhite;
-}
-
-#issues-section  {
-    text-align: center;
-}
-
-.card-text {
-    text-align: left;
-}
-
-#circle-issues-bg {
-    height: 100vw;
-    width: 100vw;
-    background: url('../images/luca-upper-Z-4kOr93RCI-unsplash.webp') no-repeat center center/cover;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
-
-#right-issues {
-    margin-bottom: 10px
-}
-
-#left-issues>div,
-#right-issues>div {
-    margin-top: 10px;
-}
-
-#cards-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.issues-cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.card {
-    width: 20rem;
-}
-
-/* Quotes section */
-
-#quotes-section {
-    height: 1064px;
-    width: 100%;
-    background: url('../images/deniz-altindas-t1XLQvDqt_4-unsplash.webp') no-repeat center center/cover;
-    position: relative;
-
-}
-
-#quotes-align {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.quotes-section {
-    height: 100%;
-}
-
-.quotes-section h4 {
-    font-family: "Roboto", sans-serif;
-    font-size: medium;
-    text-align: center;
-    padding-top: 20px;
-
-
-}
-
-/* ---------------------------- Speech bubble */
+/* Speech bubble */
 
 #bubble-position {
     display: flex;
@@ -407,7 +308,7 @@ footer {
 }
 
 .speech-bubble-1 {
-    background: antiquewhite;
+    background: #78be6a;
 }
 
 .speech-bubble-2 {
@@ -423,7 +324,7 @@ footer {
 }
 
 .speech-bubble-5 {
-    background: #78be6a;
+    background: antiquewhite;
 }
 
 .speech-bubble:after {
@@ -465,7 +366,41 @@ footer {
     border-top-color: #78be6a;
 }
 
-/* -------------------------- Resources section */
+#quotes-section {
+    height: 1064px;
+    width: 100%;
+    background: url('../images/deniz-altindas-t1XLQvDqt_4-unsplash.webp') no-repeat center center/cover;
+    position: relative;
+
+}
+
+#quotes-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.quotes-section {
+    height: 100%;
+}
+
+.quotes-section h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    text-align: center;
+    padding-top: 20px;
+
+
+}
+
+/* --Stress Section End-- */
+
+/* Resource Section */
+
+#resources-main {
+    background-color: antiquewhite;
+}
 
 .resource-col {
     display: flex;
@@ -474,35 +409,112 @@ footer {
     margin-bottom: 20px;
 }
 
+.resource-col a {
+    background-color: #525252 !important;
+    border-color: #525252 !important;
+}
+
+.resource-col a:hover {
+    background-color: #242424 !important;
+    border-color: #242424 !important;
+}
+
+.card-bg {
+    background-color: antiquewhite;
+    border-color: antiquewhite !important;
+}
+
 .card-body {
     text-align: center;
     font-family: "Roboto", sans-serif;
+    border-radius: 20px;
+}
+
+.card-1 {
+    background-color: #78be6a;
+}
+
+.card-2 {
+    background-color: #FF7155;
+}
+
+.card-3 {
+    background-color: #5d3a9d9a;
+}
+
+.card-4 {
+    background-color: #e69c6a;
+}
+
+.card-5 {
+    background-color: #3a89d8;
+}
+
+/* Footer */
+
+footer {
+    background-color: #525252;
+    min-height: 100px;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
 }
 
 
-/* Media Query 590px or larger  */
-@media screen and (min-width: 590px) {
-
-    #stress-main {
-        margin-top: 102px;
-    }
-
-    #resources-main {
-        margin-top: 130px;
-        padding-top: 20px;
-    }
+footer a {
+    color: #FFFFFF;
+    text-decoration: none !important;
 }
 
+/* Media Query 576px or larger */
+@media screen and (min-width: 576px) {
+
+    #navbar {
+        padding: 0 !important;
+    }
+    
+    #navbar>div {
+        height: 100px;
+    }
+    
+    #navbar-items {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0;
+    }
+    
+    .nav-item a {
+        font-family: "Noto Serif", sans-serif;
+        font-weight: 600;
+        text-align: center;
+        color: #5c3a9d;
+        width: 100%;
+    }
+
+    .menu-home-colour {
+        background-color: #FF7155;
+    }
+
+    .menu-stress-colour {
+        background-color: #3a89d8;
+    }
+
+    .menu-resources-colour {
+        background-color: #e69c6a;
+    }
+
+    #navbar-items li {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+}
 
 /* Media Query 768px or larger */
 @media screen and (min-width: 768px) {
 
-    #stress-main {
-        margin-top: 162px;
-    }
-
     #resources-main {
-        margin-top: 176px;
         padding-top: 20px;
     }
 
@@ -523,6 +535,13 @@ footer {
         align-self: flex-end;
     }
 
+}
+
+/* Media Query 880px or larger */
+@media screen and (min-width: 880px) {
+    .nav-item a {
+        font-size: 150%;
+    }
 }
 
 /* Media Query 1200px or larger (specifically for stress page) */
