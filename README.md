@@ -128,7 +128,7 @@ After completing my HTML and and CSS I put my index.html, stress.html and resour
 <img src="assets/screenshots/index.png" alt="index.html page HTML validator screenshot showing no erros">
 <img src="assets/screenshots/stress.png" alt="index.html page HTML validator screenshot showing no erros">
 <img src="assets/screenshots/resources.png" alt="index.html page HTML validator screenshot showing no erros">
-For the warnings on my CSS I did not change any code as in a walkthrough video from the LMS in code-instutute these items were included.
+For the warnings on my CSS I did not change any code as in a walkthrough video from the LMS content, from Code Instutute, were not fixedd.
 
 ### Lighthouse
 First Performance: BAD
@@ -183,8 +183,10 @@ https://www.samaritans.org/
 
  ## Updates and improvements since deadline submission
 
- - As mentioned above I spent a lot of time on the NavBar which didnt end up functioning how I wanted. I spent some evenings starting from scratching using bootstrap to achieve the final product that is now updated and works more smoothly, mainly pushing the content of the page down when the burger icon is expanded for mobile devices. This also meant that the NavBar has been changed from sticky to fixed.
+ - As mentioned above I spent a lot of time on the NavBar which didn't end up functioning how I wanted. I spent some evenings starting from scratching using bootstrap to achieve the final product that is now updated and works more smoothly, mainly pushing the content of the page down when the burger icon is expanded for mobile devices. This also meant that the NavBar has been changed from sticky to fixed.
  - Styling: The styling and colours were almost complete and therefore only a few adjustments were made to clean up the site. 
  - After reflection, On mobile devices espeically, users would want to be able to get back to the top of the screen after scrolling down. (This originally wasnt a problem as the navbar was sticky). I added some JS code after following a tutorial on youtube for a "back to top" button which increased the UX of the site. 
  - Back to top button walkthrough: https://www.youtube.com/watch?v=gphMli74Chk
  - The footer was unfinished and a few minor styles were added to complete this.
+
+### Validation
